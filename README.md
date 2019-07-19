@@ -46,11 +46,6 @@ Show data From Database
 
 http://localhost/mvc/article/show/2
 
-Another URL
-
-http://localhost/mvc/article/404
-
-
 <b> Note</b> that if the file is not in one of the controller files,then it automatically finds method from  index.php file and if it still can not find it, the it will direct  to 404  page.
  
 
@@ -84,4 +79,11 @@ URl : <b>http://localhost/mvc/article/show/2</b>
 
 All Links we created in Controller for example
 
+http://localhost/mvc/   -> index Controller
+http://localhost/mvc/page1  -> index Controller
+http://localhost/mvc/article  -> article Controller
+http://localhost/mvc/article/show/2   -> article Controller method show
+http://localhost/mvc/article/show/2   -> 404 in View foller
+
+In the library folder, the entire mvc structure is written  - > mvc\library .
 
