@@ -12,30 +12,35 @@ The Model-View-Control (MVC) pattern, originally formulated in the late 1970s, i
 
 ```
 MVC/
-└── app/
-    ├── controller
-    |   ├── article.php
-    |   ├── index.php
-    |
-    ├── model
-    |   ├── articles.php
-    |
-    ├── view
-    |   ├── 404.php
-    |   ├── index.php
-    |   ├── page1.php
-    |   ├── view.php
-    |
-    └── library/
-        |   ├── Config.php
-        |   ├── Controller.php
-        |   ├── functions.php
-        |   ├── Load.php
-        |   ├── Model.php
-        |   ├── Router.php
-        └── View.php
-        
+├── app/
+|    ├──── controller
+|    |    ├── article.php
+|    |    ├── index.php
+|    |
+|    ├──── model
+|    |    ├── articles.php
+|    |
+|    └──── view
+|         ├── 404.php
+|         ├── index.php
+|         ├── page1.php
+|         ├── view.php
+|    
+|    
+├── Library/        
+|    ├── Config.php
+|    ├── Controller.php
+|    ├── functions.php
+|    ├── Load.php
+|    ├── Model.php
+|    ├── Router.php
+|    └── View.php   
+|    
+├──.htaccess
+|
+└── index.php     
 ```
+
 <b>Model</b>
 
 Database Communication between View and Controller
