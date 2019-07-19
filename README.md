@@ -51,7 +51,7 @@ Another URL
 http://localhost/mvc/article/404
 
 
-<b> Note that if the file is not in one of the controller files,then it automatically finds method from  index.php file and if it still can not find it, the it will direct  to 404  page. <b>
+
  
 
 for Example 
