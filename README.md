@@ -59,13 +59,13 @@ URl : http://localhost/mvc/page1
 page1 method is not inside the controller files
 
 this method Written In mvc\app\controller\index.php:16
-
 ```
-    public function page1($id=0){
+  public function page1($id=0){
         $this->view->set("id",$id);
         $this->view->render("page1");
-    }```
-    
+    }
+  ```
+  
 as a result , the All URLS or there is in index.php or in controller files 
 Take note of the example below
 
@@ -80,9 +80,7 @@ URl : <b>http://localhost/mvc/article/show/2</b>
 
 All Links we created in Controller for example
 
-
-
-
+ cfdfd
 
 
 
