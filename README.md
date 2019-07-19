@@ -71,24 +71,16 @@ Take note of the example below
 
 URl : <b>http://localhost/mvc/article/show/2</b>
 
+
 <b>article</b> is a Controller in mvc\app\controller\
 
 <b>show</b> is a function in mvc\app\controller\article.php
 
 <b>2</b> is a param in mvc\app\controller\article.php:21 - > function show($id=0){ }
+
+
 ----------------------------------
 
 All Links we created in Controller for example
-
- cfdfd
-
-
-
-
-
-
-
-
-
 
 
